@@ -1,0 +1,18 @@
+python      : 3.10.21
+torch       : 2.14.0+cu130 | torch built for CUDA 13.0
+nvcc (sys)  : Build cuda_12.8.r12.8/compiler.35404655_0
+nvidia-smi  : NVIDIA H200, 580.105.08, [Insufficient Permissions]
+transformers: 5.17.0
+datasets    : 5.0.1
+accelerate  : 1.15.0
+peft        : 0.21.0
+wandb       : 0.30.0
+numpy       : 2.2.6
+mem_get_info: free 69.5 GiB / total 69.8 GiB
+bf16 supported: True
+SDPA ok: (2, 8, 128, 64) | flash_sdp: True | mem_efficient_sdp: True
+[W929 06:06:21.669754471 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 1073741824 bytes (free: 476184576, total: 74893492224).
+[W929 06:06:21.669849419 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 1073741824 bytes (free: 476184576, total: 74893492224).
+/workspace/projects/care/scripts/00_env_check.py:34: UserWarning: nvmlDeviceGetComputeRunningProcesses failed; omitting per-process memory info from CUDA out-of-memory messages. This is expected on platforms with partial NVML support such as Tegra/Jetson. (Triggered internally at /__w/pytorch/pytorch/c10/cuda/CUDACachingAllocator.cpp:1383.)
+  chunks.append(torch.empty(2**30, dtype=torch.uint8, device="cuda"))
+allocated 69 GiB before OutOfMemoryError: CUDA out of memory. Tried to allocate 1024.00 MiB. GPU 0 has a total capacity of 69.75 GiB of which 454.12 MiB is free. Of the allocated memory 69.00 

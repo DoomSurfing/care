@@ -1,0 +1,19 @@
+downloaded: data/train/commonsense_170k.json
+downloaded: data/test/boolq.json
+downloaded: data/test/piqa.json
+downloaded: data/test/social_i_qa.json
+downloaded: data/test/hellaswag.json
+downloaded: data/test/winogrande.json
+downloaded: data/test/ARC-Challenge.json
+downloaded: data/test/ARC-Easy.json
+downloaded: data/test/openbookqa.json
+
+train: 170420 keys: ['answer', 'input', 'instruction', 'output']
+test boolq          n=  3270 keys=['answer', 'input', 'instruction', 'output']
+test piqa           n=  1838 keys=['answer', 'input', 'instruction', 'output']
+test social_i_qa    n=  1954 keys=['answer', 'input', 'instruction', 'output']
+test hellaswag      n= 10042 keys=['answer', 'input', 'instruction', 'output']
+test winogrande     n=  1267 keys=['answer', 'input', 'instruction', 'output']
+test ARC-Challenge  n=  1172 keys=['answer', 'input', 'instruction', 'output']
+test ARC-Easy       n=  2376 keys=['answer', 'input', 'instruction', 'output']
+test openbookqa     n=   500 keys=['answer', 'input', 'instruction', 'output']
