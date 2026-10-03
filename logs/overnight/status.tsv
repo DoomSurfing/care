@@ -14,3 +14,13 @@
 2026-10-03 20:42:47	EVAL_SKIP moe_fixed4_s42 fixed3
 2026-10-03 20:42:47	EVAL_SKIP moe_fixed4_s42 fixed6
 2026-10-03 20:42:47	EVAL_SKIP moe_fixed4_s42 fixed8
+2026-10-03 20:42:50	EVAL_START moe_fixed4_s43 fixed1 attempt 1
+2026-10-03 20:58:19	EVAL_DONE moe_fixed4_s43 fixed1 | AVERAGE (macro over tasks): {'acc_ll': 82.23}
+2026-10-03 20:58:20	EVAL_START moe_fixed4_s43 fixed2 attempt 1
+2026-10-03 21:13:51	EVAL_DONE moe_fixed4_s43 fixed2 | AVERAGE (macro over tasks): {'acc_ll': 86.06}
+2026-10-03 21:13:51	EVAL_START moe_fixed4_s43 fixed3 attempt 1
+2026-10-03 21:29:23	EVAL_DONE moe_fixed4_s43 fixed3 | AVERAGE (macro over tasks): {'acc_ll': 86.98}
+2026-10-03 21:29:23	EVAL_START moe_fixed4_s43 fixed6 attempt 1
+2026-10-03 21:44:56	EVAL_DONE moe_fixed4_s43 fixed6 | AVERAGE (macro over tasks): {'acc_ll': 87.76}
+2026-10-03 21:44:56	EVAL_START moe_fixed4_s43 fixed8 attempt 1
+2026-10-03 22:00:30	EVAL_DONE moe_fixed4_s43 fixed8 | AVERAGE (macro over tasks): {'acc_ll': 87.82}
