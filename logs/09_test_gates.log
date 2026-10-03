@@ -1,0 +1,14 @@
+T1 nucleus k_nu: ok
+T2 k_min/k_max clip: ok
+T3 k_bar monotone in tau: ok
+/workspace/projects/care/tests/test_gates.py:46: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  print("T4 Gram D matches naive Eq.2: ok  (D range %.3f..%.3f)" % (D.min(), D.max()))
+T4 Gram D matches naive Eq.2: ok  (D range 0.579..0.755)
+T5/T6 opposite -> D=1, identical -> D=0: ok
+T7 extension fires (k=4); T8 k_nu=1 never extends (D==0 by construction): ok
+T9 weights sum to 1, |S|==k, S==top-k: ok
+T10 k_max strict: ok | k mean 4.72 std 2.10 min 1 max 8 (must vary, within [1,8])
+T11 gate swap inside layer, k histogram within [1,8]: ok
+
+ALL GATE TESTS PASSED
