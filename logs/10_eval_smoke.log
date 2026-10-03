@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 9585.98it/s]
+[ckpt] loaded 252 tensors | unexpected=0 | missing (frozen base only)=339
+[ckpt] mean|B| over modules: min 3.78e-04 max 8.86e-04 | gate smoke | trained seed 42
+[boolq] n 50 | max_prompt_tok 38 | acc_ll 42.00 | mean_k 4.00 | acc_gen 42.00 | gen_unparsed 0 | agree_ll_gen 100.00 | sec 4.48
+[piqa] n 50 | max_prompt_tok 240 | acc_ll 86.00 | mean_k 4.00 | acc_gen 84.00 | gen_unparsed 0 | agree_ll_gen 98.00 | sec 5.82
+[social_iqa] n 50 | max_prompt_tok 106 | acc_ll 84.00 | mean_k 4.00 | acc_gen 84.00 | gen_unparsed 0 | agree_ll_gen 100.00 | sec 5.45
+[hellaswag] n 50 | max_prompt_tok 348 | acc_ll 94.00 | mean_k 4.00 | acc_gen 94.00 | gen_unparsed 0 | agree_ll_gen 100.00 | sec 9.64
+[winogrande] n 50 | max_prompt_tok 71 | acc_ll 52.00 | mean_k 4.00 | acc_gen 52.00 | gen_unparsed 0 | agree_ll_gen 100.00 | sec 4.85
+[arc_easy] n 50 | max_prompt_tok 131 | acc_ll 92.00 | mean_k 4.00 | acc_gen 92.00 | gen_unparsed 0 | agree_ll_gen 100.00 | sec 5.68
+[arc_challenge] n 50 | max_prompt_tok 174 | acc_ll 96.00 | mean_k 4.00 | acc_gen 96.00 | gen_unparsed 0 | agree_ll_gen 100.00 | sec 6.95
+[openbookqa] n 50 | max_prompt_tok 122 | acc_ll 74.00 | mean_k 4.00 | acc_gen 76.00 | gen_unparsed 0 | agree_ll_gen 98.00 | sec 5.58
+AVERAGE (macro over tasks): {'acc_ll': 77.5, 'acc_gen': 77.5}
