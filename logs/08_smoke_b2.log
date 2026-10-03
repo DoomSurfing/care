@@ -1,0 +1,16 @@
+=== RUN smoke_b | seed 42 ===
+PAPER (fixed): {'N': 16, 'k_min': 1, 'k_max': 8, 'gamma': 2, 'delta': 0.55, 'B': 4, 'w': 0.5, 'r': 8, 'lr': 0.0002, 'batch_size': 16, 'dropout': 0.05, 'epochs': 3, 'train_k': 4}
+ASSUMPTIONS (labeled, not from paper): {'lora_alpha': 16, 'aux_coef': 0.01, 'weight_decay': 0.0, 'grad_clip': None, 'warmup_steps': 0, 'max_len_train': 256, 'train_on_inputs': False, 'router_per_module': True, 'router_init_std': 0.01, 'shared_dropout_mask_across_experts': True, 'aux_averaged_over_layers': True, 'router_logits_in_activation_dtype': True, 'bf16_frozen_base_fp32_adapter': True, 'drop_last': True, 'val_holdout': 2000, 'val_split_seed': 1234, 'll_score': 'mean_logprob_over_choice_tokens', 'seed': 42}
+args: {'method': 'moe_fixed4', 'seed': 42, 'run_name': 'smoke_b', 'max_steps': 30, 'stop_at': None, 'save_every': 10, 'log_every': 5, 'resume': True, 'wandb': False, 'wandb_project': 'hcare-moe-lora', 'aux_coef': 0.01, 'val_holdout': 2000}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+train n=168420 | left-truncated 18758 | steps/epoch 10526 | total steps 30
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 10865.41it/s]
+injection points 84 | trainable 253.9M | grad checkpointing: False | physical batch 16 (no accumulation)
+[ckpt] loaded 252 tensors | unexpected=0 | missing (frozen base only)=339
+[resume] continuing from step 20
+/workspace/projects/care/scripts/06_train.py:110: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  acc["loss"] += out.loss.item(); acc["aux"] += float(aux); acc["n"] += 1
+step 25/30 loss 0.0887 aux 1.084 gn 0.17 seq 152 reserved 59.7 GiB ETA 0.00 h
+step 30/30 loss 0.1471 aux 1.085 gn 0.44 seq 244 reserved 59.7 GiB ETA 0.00 h
+DONE smoke_b -> ckpt/smoke_b/final.pt
