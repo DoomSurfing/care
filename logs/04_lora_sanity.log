@@ -1,0 +1,24 @@
+PAPER (fixed): {'N': 16, 'k_min': 1, 'k_max': 8, 'gamma': 2, 'delta': 0.55, 'B': 4, 'w': 0.5, 'r': 8, 'lr': 0.0002, 'batch_size': 16, 'dropout': 0.05, 'epochs': 3, 'train_k': 4}
+ASSUMPTIONS (labeled, not from paper): {'lora_alpha': 16, 'aux_coef': 0.01, 'weight_decay': 0.0, 'grad_clip': None, 'warmup_steps': 0, 'max_len_train': 256, 'train_on_inputs': False, 'router_per_module': True, 'router_init_std': 0.01, 'shared_dropout_mask_across_experts': True, 'aux_averaged_over_layers': True, 'router_logits_in_activation_dtype': True, 'seed': 42}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [01:43<05:10, 103.36s/it]Fetching 4 files:  50%|█████     | 2/4 [01:58<01:42, 51.49s/it] Fetching 4 files:  75%|███████▌  | 3/4 [01:59<00:28, 28.26s/it]Fetching 4 files: 100%|██████████| 4/4 [02:14<00:00, 23.26s/it]Fetching 4 files: 100%|██████████| 4/4 [02:14<00:00, 33.69s/it]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 8048.66it/s]
+trainable params: 15,138,816 || all params: 7,630,755,328 || trainable%: 0.1984
+step   0 loss 0.6535 seqlen 245 peak 23.7 GiB
+step   5 loss 0.2501 seqlen 230 peak 24.2 GiB
+step  10 loss 0.1027 seqlen 68 peak 24.2 GiB
+step  15 loss 0.0961 seqlen 256 peak 24.2 GiB
+step  20 loss 0.0437 seqlen 79 peak 24.2 GiB
+step  25 loss 0.1050 seqlen 212 peak 24.2 GiB
+step  30 loss 0.1052 seqlen 80 peak 24.2 GiB
+step  35 loss 0.1981 seqlen 86 peak 24.2 GiB
+step  40 loss 0.0372 seqlen 68 peak 24.2 GiB
+step  45 loss 0.1581 seqlen 256 peak 24.2 GiB
+step  50 loss 0.1545 seqlen 80 peak 24.2 GiB
+step  55 loss 0.2110 seqlen 256 peak 24.2 GiB
+
+mean first10 0.2984 -> last10 0.1324 | 73s
+LOSS DECREASED: True
+boolq | gold: false | gen: 'false'
+piqa | gold: solution1 | gen: 'solution1'
