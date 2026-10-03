@@ -1,0 +1,10 @@
+T1 zero-init identical to base: ok
+T2 matches naive dense Eq.1: ok
+T3 top-k count, weights sum to 1: ok
+T4 grads flow to A/B/router: ok
+T5 dropout train/eval: ok
+T6 aux loss 1.001: ok
+[ckpt] loaded 18 tensors | unexpected=0 | missing (frozen base only)=27
+T7 checkpoint round-trip + unexpected-key guard: ok
+
+ALL MOE-LORA TESTS PASSED

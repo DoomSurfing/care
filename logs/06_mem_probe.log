@@ -1,0 +1,8 @@
+[bs16 micro16 seq256 ckpt=False] trainable params: 253.9M | after load: 15.2 GiB
+[bs16 micro16 seq256 ckpt=False] RESULT OK | peak alloc 56.0 GiB | peak reserved 59.1 GiB | median 0.61 s/step | worst-case full-run est 5.4 h (real dynamic-padded batches are shorter)
+[bs16 micro8 seq256 ckpt=False] trainable params: 253.9M | after load: 15.2 GiB
+[bs16 micro8 seq256 ckpt=False] RESULT OK | peak alloc 37.8 GiB | peak reserved 38.6 GiB | median 0.69 s/step | worst-case full-run est 6.1 h (real dynamic-padded batches are shorter)
+[bs16 micro4 seq256 ckpt=False] trainable params: 253.9M | after load: 15.2 GiB
+[bs16 micro4 seq256 ckpt=False] RESULT OK | peak alloc 28.3 GiB | peak reserved 29.2 GiB | median 0.87 s/step | worst-case full-run est 7.7 h (real dynamic-padded batches are shorter)
+[bs16 micro16 seq256 ckpt=True] trainable params: 253.9M | after load: 15.2 GiB
+[bs16 micro16 seq256 ckpt=True] RESULT OK | peak alloc 26.1 GiB | peak reserved 29.7 GiB | median 0.81 s/step | worst-case full-run est 7.2 h (real dynamic-padded batches are shorter)
