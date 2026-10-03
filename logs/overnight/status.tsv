@@ -3,3 +3,5 @@
 2026-10-03 14:22:25	TRAIN_DONE moe_fixed4_s43 | last val: {"step": 31000, "val_loss": 0.11291297731135393, "val_exact": 92.2}
 2026-10-03 14:22:25	EVAL_START moe_fixed4_s43 fixed4 attempt 1
 2026-10-03 14:48:09	EVAL_DONE moe_fixed4_s43 fixed4 | AVERAGE (macro over tasks): {'acc_ll': 87.43, 'acc_gen': 87.46}
+2026-10-03 14:48:28	TRAIN_START moe_fixed4_s44 attempt 1
+2026-10-03 16:59:24	TRAIN_WATCHDOG moe_fixed4_s44 (exit 2): reported, NOT retried, NOT re-rolled
