@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+n: 3000 | left-truncated: 348 | eos: 151643 | pad: 151643
+FULL TEXT : '### Instruction:\nPlease choose the correct answer to fill in the blank to complete the given sentence: I kept the rabbit in a cage instead of in the barn because it was harder to find it in the _ .\n\nOption1: barn Option2: cage Answer format: option1/option2\n### Response:\noption1<|endoftext|>'
+SUPERVISED: 'option1<|endoftext|>'
+batch shape: (16, 256) (padded to batch max, not 256)
+DATA TESTS PASSED

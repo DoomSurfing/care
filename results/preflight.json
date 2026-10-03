@@ -1,0 +1,92 @@
+{
+ "boolq": {
+  "n": 3270,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 34.8,
+  "p95": 38.0,
+  "max": 44,
+  "max_answer_tok": 1,
+  "full_gt256": 0
+ },
+ "piqa": {
+  "n": 1838,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 84.6,
+  "p95": 175.29999999999973,
+  "max": 503,
+  "max_answer_tok": 2,
+  "full_gt256": 22
+ },
+ "social_iqa": {
+  "n": 1954,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 72.1,
+  "p95": 86.0,
+  "max": 119,
+  "max_answer_tok": 2,
+  "full_gt256": 0
+ },
+ "hellaswag": {
+  "n": 10042,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 225.0,
+  "p95": 307.0,
+  "max": 405,
+  "max_answer_tok": 2,
+  "full_gt256": 5107
+ },
+ "winogrande": {
+  "n": 1267,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 60.8,
+  "p95": 69.0,
+  "max": 76,
+  "max_answer_tok": 2,
+  "full_gt256": 0
+ },
+ "arc_easy": {
+  "n": 2376,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 83.5,
+  "p95": 124.0,
+  "max": 221,
+  "max_answer_tok": 2,
+  "full_gt256": 0
+ },
+ "arc_challenge": {
+  "n": 1172,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 93.4,
+  "p95": 137.0,
+  "max": 223,
+  "max_answer_tok": 2,
+  "full_gt256": 0
+ },
+ "openbookqa": {
+  "n": 500,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 68.9,
+  "p95": 89.04999999999995,
+  "max": 134,
+  "max_answer_tok": 2,
+  "full_gt256": 0
+ },
+ "train": {
+  "n": 170420,
+  "parse_fail": 0,
+  "gold_not_in_choices": 0,
+  "avg": 101.3,
+  "p95": 282.0,
+  "max": 1111,
+  "max_answer_tok": 2,
+  "full_gt256": 19015
+ }
+}

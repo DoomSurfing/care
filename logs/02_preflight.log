@@ -1,0 +1,63 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[boolq] {'n': 3270, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 34.8, 'p95': 38.0, 'max': 44, 'max_answer_tok': 1, 'full_gt256': 0}
+  choice sets: [('true/false', 3270)]
+  answer dist: [('true', 2033), ('false', 1237)]
+  --- example prompt repr:
+  '### Instruction:\nPlease answer the following question with true or false, question: does ethanol take more energy make that produces?\n\nAnswer format: true/false\n### Response:\n'
+  gold: 'false' | parsed choices: ['true', 'false']
+
+[piqa] {'n': 1838, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 84.6, 'p95': 175.29999999999973, 'max': 503, 'max_answer_tok': 2, 'full_gt256': 22}
+  choice sets: [('solution1/solution2', 1838)]
+  answer dist: [('solution2', 928), ('solution1', 910)]
+  --- example prompt repr:
+  "### Instruction:\nPlease choose the correct solution to the question: How do I ready a guinea pig cage for it's new occupants?\n\nSolution1: Provide the guinea pig with a cage full of a few inches of bedding made of ripped paper strips, you will also need to supply it with a water bottle and a food dish.\n\nSolution2: Provide the guinea pig with a cage full of a few inches of bedding made of ripped jeans material, you will also need to supply it with a water bottle and a food dish.\n\nAnswer format: solution1/solution2\n### Response:\n"
+  gold: 'solution1' | parsed choices: ['solution1', 'solution2']
+
+[social_iqa] {'n': 1954, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 72.1, 'p95': 86.0, 'max': 119, 'max_answer_tok': 2, 'full_gt256': 0}
+  choice sets: [('answer1/answer2/answer3', 1954)]
+  answer dist: [('answer3', 657), ('answer2', 654), ('answer1', 643)]
+  --- example prompt repr:
+  "### Instruction:\nPlease choose the correct answer to the question: Tracy didn't go home that evening and resisted Riley's attacks. What does Tracy need to do before this?\n\nAnswer1: make a new plan Answer2: Go home and see Riley Answer3: Find somewhere to go\n\nAnswer format: answer1/answer2/answer3\n### Response:\n"
+  gold: 'answer3' | parsed choices: ['answer1', 'answer2', 'answer3']
+
+[hellaswag] {'n': 10042, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 225.0, 'p95': 307.0, 'max': 405, 'max_answer_tok': 2, 'full_gt256': 5107}
+  choice sets: [('ending1/ending2/ending3/ending4', 10042)]
+  answer dist: [('ending3', 2584), ('ending1', 2515), ('ending2', 2485), ('ending4', 2458)]
+  --- example prompt repr:
+  "### Instruction:\nPlease choose the correct ending to complete the given sentence: Roof shingle removal: A man is sitting on a roof. he\n\nEnding1: is using wrap to wrap a pair of skis. Ending2: is ripping level tiles off. Ending3: is holding a rubik's cube. Ending4: starts pulling up roofing on a roof.\n\nAnswer format: ending1/ending2/ending3/ending4\n### Response:\n"
+  gold: 'ending4' | parsed choices: ['ending1', 'ending2', 'ending3', 'ending4']
+
+[winogrande] {'n': 1267, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 60.8, 'p95': 69.0, 'max': 76, 'max_answer_tok': 2, 'full_gt256': 0}
+  choice sets: [('option1/option2', 1267)]
+  answer dist: [('option2', 639), ('option1', 628)]
+  --- example prompt repr:
+  '### Instruction:\nPlease choose the correct answer to fill in the blank to complete the given sentence: Sarah was a much better surgeon than Maria so _ always got the easier cases.\n\nOption1: Sarah Option2: Maria Answer format: option1/option2\n### Response:\n'
+  gold: 'option2' | parsed choices: ['option1', 'option2']
+
+[arc_easy] {'n': 2376, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 83.5, 'p95': 124.0, 'max': 221, 'max_answer_tok': 2, 'full_gt256': 0}
+  choice sets: [('answer1/answer2/answer3/answer4', 2365), ('answer1/answer2/answer3', 7), ('answer1/answer2/answer3/answer4/answer5', 4)]
+  answer dist: [('answer3', 633), ('answer1', 596), ('answer2', 585), ('answer4', 561), ('answer5', 1)]
+  --- example prompt repr:
+  '### Instruction:\nPlease choose the correct answer to the question: Which statement best explains why photosynthesis is the foundation of most food webs?\n\nAnswer1: Sunlight is the source of energy for nearly all ecosystems. Answer2: Most ecosystems are found on land instead of in water. Answer3: Carbon dioxide is more available than other gases. Answer4: The producers in all ecosystems are plants.\n\nAnswer format: answer1/answer2/answer3/answer4\n### Response:\n'
+  gold: 'answer1' | parsed choices: ['answer1', 'answer2', 'answer3', 'answer4']
+
+[arc_challenge] {'n': 1172, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 93.4, 'p95': 137.0, 'max': 223, 'max_answer_tok': 2, 'full_gt256': 0}
+  choice sets: [('answer1/answer2/answer3/answer4', 1165), ('answer1/answer2/answer3', 4), ('answer1/answer2/answer3/answer4/answer5', 3)]
+  answer dist: [('answer2', 311), ('answer3', 310), ('answer4', 285), ('answer1', 266)]
+  --- example prompt repr:
+  '### Instruction:\nPlease choose the correct answer to the question: An astronomer observes that a planet rotates faster after a meteorite impact. Which is the most likely effect of this increase in rotation?\n\nAnswer1: Planetary density will decrease. Answer2: Planetary years will become longer. Answer3: Planetary days will become shorter. Answer4: Planetary gravity will become stronger.\n\nAnswer format: answer1/answer2/answer3/answer4\n### Response:\n'
+  gold: 'answer3' | parsed choices: ['answer1', 'answer2', 'answer3', 'answer4']
+
+[openbookqa] {'n': 500, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 68.9, 'p95': 89.04999999999995, 'max': 134, 'max_answer_tok': 2, 'full_gt256': 0}
+  choice sets: [('answer1/answer2/answer3/answer4', 500)]
+  answer dist: [('answer1', 138), ('answer3', 132), ('answer2', 126), ('answer4', 104)]
+  --- example prompt repr:
+  '### Instruction:\nPlease choose the correct answer to the question: A person wants to start saving money so that they can afford a nice vacation at the end of the year. After looking over their budget and expenses, they decide the best way to save money is to\n\nAnswer1: make more phone calls Answer2: quit eating lunch out Answer3: buy less with monopoly money Answer4: have lunch with friends\n\nAnswer format: answer1/answer2/answer3/answer4\n### Response:\n'
+  gold: 'answer2' | parsed choices: ['answer1', 'answer2', 'answer3', 'answer4']
+
+[TRAIN(all)] {'n': 170420, 'parse_fail': 0, 'gold_not_in_choices': 0, 'avg': 101.3, 'p95': 282.0, 'max': 1111, 'max_answer_tok': 2, 'full_gt256': 19015}
+  choice sets: [('option1/option2', 63238), ('ending1/ending2/ending3/ending4', 39905), ('answer1/answer2/answer3', 33417)]
+  answer dist: [('option1', 31649), ('option2', 31589), ('answer1', 13439), ('answer2', 13272), ('answer3', 12975), ('ending2', 10031)]
+
+PREFLIGHT PASS
