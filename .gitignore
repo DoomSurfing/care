@@ -1,0 +1,21 @@
+# --- large / regenerable ---
+ckpt/
+data/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.tmp
+# live-appended by the running job; snapshot later into results/
+logs/train/
+# --- python / jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# --- secrets ---
+.env
+*.key
+*token*
+*secret*
