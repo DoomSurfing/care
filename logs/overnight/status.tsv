@@ -1,0 +1,5 @@
+2026-10-03 08:50:28	OVERNIGHT_START train=[43 44 45 46] all=[42 43 44 45 46] ks=[1 2 3 6 8]
+2026-10-03 08:50:28	TRAIN_START moe_fixed4_s43 attempt 1
+2026-10-03 14:22:25	TRAIN_DONE moe_fixed4_s43 | last val: {"step": 31000, "val_loss": 0.11291297731135393, "val_exact": 92.2}
+2026-10-03 14:22:25	EVAL_START moe_fixed4_s43 fixed4 attempt 1
+2026-10-03 14:48:09	EVAL_DONE moe_fixed4_s43 fixed4 | AVERAGE (macro over tasks): {'acc_ll': 87.43, 'acc_gen': 87.46}

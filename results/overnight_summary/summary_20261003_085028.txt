@@ -1,0 +1,31 @@
+generated 20261003_085028 | seeds with any result: [42]
+
+== fixed4 / LL scoring / seeds [42] (mean +- sample std) ==
+boolq           73.36 +-  nan   [73.36]
+piqa            88.79 +-  nan   [88.79]
+social_iqa      80.40 +-  nan   [80.4]
+hellaswag       94.46 +-  nan   [94.46]
+winogrande      87.13 +-  nan   [87.13]
+arc_easy        94.95 +-  nan   [94.95]
+arc_challenge   87.03 +-  nan   [87.03]
+openbookqa      89.20 +-  nan   [89.2]
+AVERAGE         86.92 +-  nan   [86.92]
+
+== fixed4 / GEN scoring / seeds [42] (mean +- sample std) ==
+boolq           73.70 +-  nan   [73.7]
+piqa            88.63 +-  nan   [88.63]
+social_iqa      80.35 +-  nan   [80.35]
+hellaswag       94.51 +-  nan   [94.51]
+winogrande      87.06 +-  nan   [87.06]
+arc_easy        94.87 +-  nan   [94.87]
+arc_challenge   87.03 +-  nan   [87.03]
+openbookqa      89.40 +-  nan   [89.4]
+AVERAGE         86.94 +-  nan   [86.94]
+
+== fixed-k frontier, LL average ==
+fixed1   n=1   80.19 +-  nan   by seed {42: 80.19}
+fixed2   n=1   85.43 +-  nan   by seed {42: 85.43}
+fixed3   n=1   86.43 +-  nan   by seed {42: 86.43}
+fixed4   n=1   86.92 +-  nan   by seed {42: 86.92}
+fixed6   n=1   87.23 +-  nan   by seed {42: 87.23}
+fixed8   n=1   87.36 +-  nan   by seed {42: 87.36}
