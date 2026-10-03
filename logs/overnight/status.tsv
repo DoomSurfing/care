@@ -24,3 +24,8 @@
 2026-10-03 21:44:56	EVAL_DONE moe_fixed4_s43 fixed6 | AVERAGE (macro over tasks): {'acc_ll': 87.76}
 2026-10-03 21:44:56	EVAL_START moe_fixed4_s43 fixed8 attempt 1
 2026-10-03 22:00:30	EVAL_DONE moe_fixed4_s43 fixed8 | AVERAGE (macro over tasks): {'acc_ll': 87.82}
+2026-10-03 22:00:33	EVAL_NOFINAL moe_fixed4_s44 fixed1
+2026-10-03 22:00:33	EVAL_NOFINAL moe_fixed4_s44 fixed2
+2026-10-03 22:00:33	EVAL_NOFINAL moe_fixed4_s44 fixed3
+2026-10-03 22:00:33	EVAL_NOFINAL moe_fixed4_s44 fixed6
+2026-10-03 22:00:33	EVAL_NOFINAL moe_fixed4_s44 fixed8
