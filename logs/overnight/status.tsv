@@ -51,3 +51,8 @@
 2026-10-05 20:53:41	TRAIN_WATCHDOG moe_fixed4_s45 (exit 2): reported, NOT retried, NOT re-rolled
 2026-10-05 20:53:59	TRAIN_START moe_fixed4_s46 attempt 1
 2026-10-05 22:54:10	TRAIN_WATCHDOG moe_fixed4_s46 (exit 2): reported, NOT retried, NOT re-rolled
+2026-10-05 22:54:28	EVAL_SKIP moe_fixed4_s42 fixed1
+2026-10-05 22:54:28	EVAL_SKIP moe_fixed4_s42 fixed2
+2026-10-05 22:54:28	EVAL_SKIP moe_fixed4_s42 fixed3
+2026-10-05 22:54:28	EVAL_SKIP moe_fixed4_s42 fixed6
+2026-10-05 22:54:28	EVAL_SKIP moe_fixed4_s42 fixed8
