@@ -1,0 +1,30 @@
+{
+ "run": "moe_fixed4_s44",
+ "config": {
+  "N": 16,
+  "r": 8,
+  "alpha": 16,
+  "dropout": 0.05,
+  "train_k": 4,
+  "aux_coef": 0.01,
+  "seed": 44,
+  "total_steps": 31578,
+  "method": "moe_fixed4",
+  "router_std": 0.01,
+  "lr": 0.0002,
+  "weight_decay": 0.0,
+  "grad_clip": 1.0,
+  "warmup_frac": 0.03,
+  "warmup_steps": 947,
+  "beta2": 0.95,
+  "skip_mult": 30.0
+ },
+ "total_steps": 31578,
+ "minutes": 334.92109570503237,
+ "n_skipped": 2806,
+ "git": {
+  "commit": "e529891",
+  "dirty": true
+ },
+ "peak_reserved_gib": 59.673828125
+}
