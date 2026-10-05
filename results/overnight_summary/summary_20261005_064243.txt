@@ -1,4 +1,4 @@
-generated 20261005_105152 | seeds with any result: [42]
+generated 20261005_064243 | seeds with any result: [42]
 
 == fixed4 / LL scoring / seeds [42] (mean +- sample std) ==
 boolq           73.36 +-  nan   [73.36]
