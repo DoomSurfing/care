@@ -20,11 +20,11 @@
   "skip_mult": 0.0
  },
  "total_steps": 31578,
- "minutes": 330.8367628335953,
+ "minutes": 333.7159954150518,
  "n_skipped": 8,
  "git": {
-  "commit": "214d378",
-  "dirty": false
+  "commit": "bc85ca0",
+  "dirty": true
  },
  "peak_reserved_gib": 59.673828125
 }
