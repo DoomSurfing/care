@@ -17,13 +17,13 @@
   "warmup_frac": 0.03,
   "warmup_steps": 947,
   "beta2": 0.95,
-  "skip_mult": 30.0
+  "skip_mult": 0.0
  },
  "total_steps": 31578,
- "minutes": 334.92109570503237,
- "n_skipped": 2806,
+ "minutes": 333.78459974527357,
+ "n_skipped": 9,
  "git": {
-  "commit": "e529891",
+  "commit": "77cb3cd",
   "dirty": true
  },
  "peak_reserved_gib": 59.673828125
