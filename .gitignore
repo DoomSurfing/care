@@ -19,3 +19,4 @@ __pycache__/
 *.key
 *token*
 *secret*
+logs/overnight/

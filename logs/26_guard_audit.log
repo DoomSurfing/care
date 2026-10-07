@@ -1,0 +1,31 @@
+
+=== s42 | last step 31578 | skipped 1401 (4.4%)
+  skip rate per 3k-step window: 0k:0% 3k:1% 6k:1% 9k:2% 12k:2% 15k:2% 18k:4% 21k:8% 24k:11% 27k:11% 30k:9%
+  skipped steps with gn<10: 21% | gn<50: 59% | median skipped gn 31.6
+  epoch 3: 1025 skips | typical rolling median 0.2163 -> cutoff ~6.49
+  val step:loss/exact -> 1k:0.112/87.8 6k:0.094/90.8 11k:0.106/90.0 16k:0.104/90.8 21k:0.086/92.4 26k:0.130/92.8 31k:0.127/93.0
+
+=== s43 | last step 25880 | skipped 1285 (5.0%)
+  skip rate per 3k-step window: 0k:0% 3k:1% 6k:2% 9k:3% 12k:2% 15k:3% 18k:2% 21k:11% 24k:31%
+  skipped steps with gn<10: 34% | gn<50: 64% | median skipped gn 3083.7
+  epoch 3: 926 skips | typical rolling median 0.0208 -> cutoff ~0.63
+  val step:loss/exact -> 1k:0.101/87.9 6k:0.122/89.1 11k:0.184/89.3 16k:0.099/90.2 21k:0.095/91.5 25k:0.680/91.4
+
+=== s44 | last step 31578 | skipped 2806 (8.9%)
+  skip rate per 3k-step window: 0k:5% 3k:4% 6k:3% 9k:2% 12k:2% 15k:3% 18k:2% 21k:6% 24k:13% 27k:33% 30k:36%
+  skipped steps with gn<10: 36% | gn<50: 67% | median skipped gn 0.5
+  epoch 3: 2142 skips | typical rolling median 0.0122 -> cutoff ~0.37
+  val step:loss/exact -> 1k:0.101/88.8 6k:0.091/89.7 11k:0.096/90.6 16k:0.087/91.5 21k:0.113/92.0 26k:0.154/92.6 31k:0.662/91.3
+
+=== s45 | last step 22580 | skipped 836 (3.7%)
+  skip rate per 3k-step window: 0k:0% 3k:0% 6k:1% 9k:5% 12k:2% 15k:5% 18k:2% 21k:24%
+  skipped steps with gn<10: 22% | gn<50: 43% | median skipped gn 4.8
+  epoch 3: 381 skips | typical rolling median 0.0150 -> cutoff ~0.45
+  val step:loss/exact -> 1k:0.102/88.2 6k:0.102/89.0 11k:0.096/89.3 16k:0.106/91.2 21k:0.096/91.2 22k:0.682/91.5
+
+=== s46 | last step 10880 | skipped 194 (1.8%)
+  skip rate per 3k-step window: 0k:2% 3k:1% 6k:1% 9k:3%
+  skipped steps with gn<10: 0% | gn<50: 23% | median skipped gn 31.1
+  val step:loss/exact -> 1k:0.108/86.8 6k:0.097/89.8 10k:0.140/84.5
+
+=== OLD s43 (guard OFF, archived) val -> 1k:0.101/87.9 6k:0.954/65.0 11k:0.114/89.8 16k:0.108/90.2 21k:0.085/92.2 26k:0.119/91.8 31k:0.113/92.2

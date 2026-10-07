@@ -1,0 +1,10 @@
+== seed 43: tripped_25887 vs snap_24000
+tripped_25887 step 25887 | val_loss 0.7585 | token_acc 97.01 | exact_match(answer+EOS) 91.20
+snap_24000   step 24000 | val_loss 0.3061 | token_acc 97.01 | exact_match(answer+EOS) 91.20
+== seed 45: tripped_22583 vs snap_22000
+tripped_22583 step 22583 | val_loss 0.9162 | token_acc 96.93 | exact_match(answer+EOS) 90.95
+snap_22000   step 22000 | val_loss 0.6817 | token_acc 97.11 | exact_match(answer+EOS) 91.50
+== seed 46: tripped_10880 vs snap_10000
+tripped_10880 step 10880 | val_loss 0.1235 | token_acc 96.25 | exact_match(answer+EOS) 89.10
+snap_10000   step 10000 | val_loss 0.1396 | token_acc 94.50 | exact_match(answer+EOS) 84.55
+== done
