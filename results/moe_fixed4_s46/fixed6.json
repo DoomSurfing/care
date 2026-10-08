@@ -1,0 +1,60 @@
+{
+ "run": "moe_fixed4_s46",
+ "tag": "fixed6",
+ "gate": "fixed",
+ "k": 6,
+ "tau": null,
+ "limit": null,
+ "seed": 46,
+ "tasks": {
+  "boolq": {
+   "n": 3270,
+   "max_prompt_tok": 44,
+   "acc_ll": 74.03669724770643,
+   "sec": 24.713058471679688
+  },
+  "piqa": {
+   "n": 1838,
+   "max_prompt_tok": 503,
+   "acc_ll": 89.17301414581067,
+   "sec": 38.85860848426819
+  },
+  "social_iqa": {
+   "n": 1954,
+   "max_prompt_tok": 119,
+   "acc_ll": 80.70624360286591,
+   "sec": 44.40528988838196
+  },
+  "hellaswag": {
+   "n": 10042,
+   "max_prompt_tok": 405,
+   "acc_ll": 94.92133041226847,
+   "sec": 707.2075290679932
+  },
+  "winogrande": {
+   "n": 1267,
+   "max_prompt_tok": 76,
+   "acc_ll": 87.60852407261247,
+   "sec": 15.226407527923584
+  },
+  "arc_easy": {
+   "n": 2376,
+   "max_prompt_tok": 221,
+   "acc_ll": 95.74915824915826,
+   "sec": 59.27496266365051
+  },
+  "arc_challenge": {
+   "n": 1172,
+   "max_prompt_tok": 223,
+   "acc_ll": 87.03071672354949,
+   "sec": 29.61090922355652
+  },
+  "openbookqa": {
+   "n": 500,
+   "max_prompt_tok": 134,
+   "acc_ll": 90.0,
+   "sec": 11.62822413444519
+  }
+ },
+ "avg_ll": 87.40321055674646
+}
