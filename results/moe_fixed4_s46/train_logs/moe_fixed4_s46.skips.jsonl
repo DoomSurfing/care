@@ -1,0 +1,10 @@
+{"step": 4029, "gn_preclip": NaN, "median": 0.8129544854164124, "lm_loss": 0.23210914433002472}
+{"step": 7608, "gn_preclip": NaN, "median": 1.0896207094192505, "lm_loss": 0.08172537386417389}
+{"step": 8837, "gn_preclip": NaN, "median": 1.298352837562561, "lm_loss": 0.003629999002441764}
+{"step": 15576, "gn_preclip": NaN, "median": 1.908010482788086, "lm_loss": 0.0303795225918293}
+{"step": 16729, "gn_preclip": NaN, "median": 1.3788251876831055, "lm_loss": 0.018382273614406586}
+{"step": 18620, "gn_preclip": NaN, "median": 1.7289808988571167, "lm_loss": 0.050475090742111206}
+{"step": 22644, "gn_preclip": NaN, "median": 0.49027904868125916, "lm_loss": 0.036530498415231705}
+{"step": 23411, "gn_preclip": NaN, "median": 0.571490466594696, "lm_loss": 0.00014627177733927965}
+{"step": 24097, "gn_preclip": NaN, "median": 0.40568116307258606, "lm_loss": 0.0010053571313619614}
+{"step": 27673, "gn_preclip": NaN, "median": 0.24804507195949554, "lm_loss": 0.013942771591246128}
