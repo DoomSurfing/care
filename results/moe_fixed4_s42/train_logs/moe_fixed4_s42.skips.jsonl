@@ -1,0 +1,6 @@
+{"step": 9488, "gn_preclip": NaN, "median": 0.9254130721092224, "lm_loss": 0.15983222424983978}
+{"step": 9958, "gn_preclip": NaN, "median": 1.1569654941558838, "lm_loss": 0.05406691133975983}
+{"step": 19908, "gn_preclip": NaN, "median": 1.3185632228851318, "lm_loss": 0.019601481035351753}
+{"step": 20409, "gn_preclip": NaN, "median": 1.474807620048523, "lm_loss": 0.11706802994012833}
+{"step": 24543, "gn_preclip": NaN, "median": 0.16656029224395752, "lm_loss": 8.692163100931793e-05}
+{"step": 25082, "gn_preclip": NaN, "median": 0.3397826552391052, "lm_loss": 0.00446577463299036}
