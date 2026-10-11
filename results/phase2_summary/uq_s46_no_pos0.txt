@@ -1,0 +1,104 @@
+
+=== fixed4 | pooled ID n=22419 ===
+acc 89.00 | ECE(msp,12 bins) 0.086 | AURC 0.0231 | sel.acc@80% msp 95.61 | sel.acc@80% u 86.76
+   OOD-AUROC vs ood_val_ood  1-msp           0.808  [0.794,0.819]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.787  [0.773,0.798]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.793  [0.782,0.805]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.770  [0.757,0.783]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.793  [0.782,0.805]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.789  [0.777,0.801]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.784  [0.772,0.796]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.778  [0.765,0.790]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.770  [0.757,0.783]
+
+=== care_B4 | pooled ID n=22419 ===
+acc 89.14 | ECE(msp,12 bins) 0.087 | AURC 0.0219 | sel.acc@80% msp 95.88 | sel.acc@80% u 86.91
+   OOD-AUROC vs ood_val_ood  1-msp           0.807  [0.792,0.819]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.786  [0.771,0.799]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.805  [0.794,0.817]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.788  [0.776,0.800]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.805  [0.794,0.817]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.801  [0.790,0.813]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.797  [0.786,0.809]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.793  [0.781,0.805]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.788  [0.776,0.800]
+
+=== rfa_k8_B4 | pooled ID n=22419 ===
+acc 89.33 | ECE(msp,12 bins) 0.085 | AURC 0.0218 | sel.acc@80% msp 95.98 | sel.acc@80% u 87.10
+   OOD-AUROC vs ood_val_ood  1-msp           0.806  [0.792,0.818]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.786  [0.772,0.798]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.805  [0.793,0.816]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.787  [0.775,0.800]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.805  [0.793,0.816]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.801  [0.789,0.813]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.797  [0.785,0.809]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.792  [0.780,0.804]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.787  [0.775,0.800]
+
+=== fixed3 | pooled ID n=22419 ===
+acc 88.71 | ECE(msp,12 bins) 0.087 | AURC 0.0247 | sel.acc@80% msp 95.27 | sel.acc@80% u 86.45
+   OOD-AUROC vs ood_val_ood  1-msp           0.811  [0.797,0.822]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.790  [0.776,0.801]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.788  [0.776,0.799]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.765  [0.752,0.778]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.788  [0.776,0.799]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.784  [0.772,0.796]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.779  [0.767,0.791]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.773  [0.760,0.786]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.765  [0.752,0.778]
+
+=== rfa_k8_B3 | pooled ID n=22419 ===
+acc 88.80 | ECE(msp,12 bins) 0.089 | AURC 0.0237 | sel.acc@80% msp 95.50 | sel.acc@80% u 86.47
+   OOD-AUROC vs ood_val_ood  1-msp           0.809  [0.795,0.820]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.788  [0.775,0.800]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.798  [0.786,0.809]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.783  [0.771,0.795]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.798  [0.786,0.809]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.794  [0.783,0.806]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.791  [0.779,0.803]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.787  [0.775,0.799]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.783  [0.771,0.795]
+
+=== rfa_k8_bypass_B3 | pooled ID n=22419 ===
+acc 88.94 | ECE(msp,12 bins) 0.088 | AURC 0.0228 | sel.acc@80% msp 95.69 | sel.acc@80% u 86.62
+   OOD-AUROC vs ood_val_ood  1-msp           0.807  [0.793,0.818]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.786  [0.772,0.798]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.796  [0.785,0.808]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.731  [0.718,0.743]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.796  [0.785,0.808]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.785  [0.774,0.797]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.771  [0.760,0.783]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.754  [0.742,0.765]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.731  [0.718,0.743]
+
+=== fixed2 | pooled ID n=22419 ===
+acc 88.04 | ECE(msp,12 bins) 0.089 | AURC 0.0288 | sel.acc@80% msp 94.51 | sel.acc@80% u 85.69
+   OOD-AUROC vs ood_val_ood  1-msp           0.809  [0.794,0.819]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.786  [0.772,0.797]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.777  [0.766,0.789]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.758  [0.745,0.771]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.777  [0.766,0.789]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.775  [0.763,0.787]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.772  [0.760,0.784]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.767  [0.754,0.779]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.758  [0.745,0.771]
+
+=== rfa_k8_B2 | pooled ID n=22419 ===
+acc 87.93 | ECE(msp,12 bins) 0.094 | AURC 0.0290 | sel.acc@80% msp 94.40 | sel.acc@80% u 85.49
+   OOD-AUROC vs ood_val_ood  1-msp           0.807  [0.793,0.819]
+   OOD-AUROC vs ood_val_ood  choice_entropy  0.784  [0.771,0.796]
+   OOD-AUROC vs ood_val_ood  prompt_len(confound) 0.573  [0.563,0.583]
+   OOD-AUROC vs ood_val_ood  router_H        0.783  [0.771,0.794]
+   OOD-AUROC vs ood_val_ood  disagreement_D  0.779  [0.767,0.790]
+   OOD-AUROC vs ood_val_ood  u(w=0)          0.783  [0.771,0.794]
+   OOD-AUROC vs ood_val_ood  u(w=0.25)       0.782  [0.770,0.794]
+   OOD-AUROC vs ood_val_ood  u(w=0.5)        0.781  [0.769,0.793]
+   OOD-AUROC vs ood_val_ood  u(w=0.75)       0.780  [0.768,0.791]
+   OOD-AUROC vs ood_val_ood  u(w=1)          0.779  [0.767,0.790]

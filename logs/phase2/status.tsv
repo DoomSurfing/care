@@ -154,3 +154,85 @@
 2026-10-11 06:22:33	EVAL_START moe_fixed4_s46 random_matched_rfa_k8_B3 attempt 1
 2026-10-11 06:40:38	EVAL_DONE moe_fixed4_s46 random_matched_rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 79.04}
 2026-10-11 06:40:38	FINALIZE (CPU tables)
+2026-10-11 06:41:11	TIER_DONE 1
+2026-10-11 06:41:11	UQ_START moe_fixed4_s42 fixed4 attempt 1
+2026-10-11 07:00:29	UQ_DONE moe_fixed4_s42 fixed4
+2026-10-11 07:00:29	UQ_START moe_fixed4_s42 care_B4 attempt 1
+2026-10-11 07:20:58	UQ_DONE moe_fixed4_s42 care_B4
+2026-10-11 07:20:58	UQ_START moe_fixed4_s42 rfa_k8_B4 attempt 1
+2026-10-11 07:41:31	UQ_DONE moe_fixed4_s42 rfa_k8_B4
+2026-10-11 07:41:31	UQ_START moe_fixed4_s42 fixed3 attempt 1
+2026-10-11 08:00:55	UQ_DONE moe_fixed4_s42 fixed3
+2026-10-11 08:00:55	UQ_START moe_fixed4_s42 rfa_k8_B3 attempt 1
+2026-10-11 08:21:30	UQ_DONE moe_fixed4_s42 rfa_k8_B3
+2026-10-11 08:21:30	UQ_START moe_fixed4_s42 fixed2 attempt 1
+2026-10-11 08:41:02	UQ_DONE moe_fixed4_s42 fixed2
+2026-10-11 08:41:02	UQ_START moe_fixed4_s42 rfa_k8_B2 attempt 1
+2026-10-11 09:01:53	UQ_DONE moe_fixed4_s42 rfa_k8_B2
+2026-10-11 09:01:53	UQ_START moe_fixed4_s42 rfa_k8_bypass_B3 attempt 1
+2026-10-11 09:22:45	UQ_DONE moe_fixed4_s42 rfa_k8_bypass_B3
+2026-10-11 09:22:45	UQ_START moe_fixed4_s43 fixed4 attempt 1
+2026-10-11 09:42:24	UQ_DONE moe_fixed4_s43 fixed4
+2026-10-11 09:42:24	UQ_START moe_fixed4_s43 care_B4 attempt 1
+2026-10-11 10:02:47	UQ_DONE moe_fixed4_s43 care_B4
+2026-10-11 10:02:47	UQ_START moe_fixed4_s43 rfa_k8_B4 attempt 1
+2026-10-11 10:23:20	UQ_DONE moe_fixed4_s43 rfa_k8_B4
+2026-10-11 10:23:20	UQ_START moe_fixed4_s43 fixed3 attempt 1
+2026-10-11 10:42:38	UQ_DONE moe_fixed4_s43 fixed3
+2026-10-11 10:42:38	UQ_START moe_fixed4_s43 rfa_k8_B3 attempt 1
+2026-10-11 11:03:11	UQ_DONE moe_fixed4_s43 rfa_k8_B3
+2026-10-11 11:03:11	UQ_START moe_fixed4_s43 fixed2 attempt 1
+2026-10-11 11:22:42	UQ_DONE moe_fixed4_s43 fixed2
+2026-10-11 11:22:43	UQ_START moe_fixed4_s43 rfa_k8_B2 attempt 1
+2026-10-11 11:43:28	UQ_DONE moe_fixed4_s43 rfa_k8_B2
+2026-10-11 11:43:28	UQ_START moe_fixed4_s43 rfa_k8_bypass_B3 attempt 1
+2026-10-11 12:04:09	UQ_DONE moe_fixed4_s43 rfa_k8_bypass_B3
+2026-10-11 12:04:09	UQ_START moe_fixed4_s44 fixed4 attempt 1
+2026-10-11 12:23:16	UQ_DONE moe_fixed4_s44 fixed4
+2026-10-11 12:23:16	UQ_START moe_fixed4_s44 care_B4 attempt 1
+2026-10-11 12:43:23	UQ_DONE moe_fixed4_s44 care_B4
+2026-10-11 12:43:23	UQ_START moe_fixed4_s44 rfa_k8_B4 attempt 1
+2026-10-11 13:03:42	UQ_DONE moe_fixed4_s44 rfa_k8_B4
+2026-10-11 13:03:42	UQ_START moe_fixed4_s44 fixed3 attempt 1
+2026-10-11 13:22:46	UQ_DONE moe_fixed4_s44 fixed3
+2026-10-11 13:22:46	UQ_START moe_fixed4_s44 rfa_k8_B3 attempt 1
+2026-10-11 13:43:05	UQ_DONE moe_fixed4_s44 rfa_k8_B3
+2026-10-11 13:43:05	UQ_START moe_fixed4_s44 fixed2 attempt 1
+2026-10-11 14:02:09	UQ_DONE moe_fixed4_s44 fixed2
+2026-10-11 14:02:09	UQ_START moe_fixed4_s44 rfa_k8_B2 attempt 1
+2026-10-11 14:22:26	UQ_DONE moe_fixed4_s44 rfa_k8_B2
+2026-10-11 14:22:26	UQ_START moe_fixed4_s44 rfa_k8_bypass_B3 attempt 1
+2026-10-11 14:42:43	UQ_DONE moe_fixed4_s44 rfa_k8_bypass_B3
+2026-10-11 14:42:43	UQ_START moe_fixed4_s45 fixed4 attempt 1
+2026-10-11 15:01:49	UQ_DONE moe_fixed4_s45 fixed4
+2026-10-11 15:01:49	UQ_START moe_fixed4_s45 care_B4 attempt 1
+2026-10-11 15:21:52	UQ_DONE moe_fixed4_s45 care_B4
+2026-10-11 15:21:52	UQ_START moe_fixed4_s45 rfa_k8_B4 attempt 1
+2026-10-11 15:42:08	UQ_DONE moe_fixed4_s45 rfa_k8_B4
+2026-10-11 15:42:08	UQ_START moe_fixed4_s45 fixed3 attempt 1
+2026-10-11 16:01:08	UQ_DONE moe_fixed4_s45 fixed3
+2026-10-11 16:01:08	UQ_START moe_fixed4_s45 rfa_k8_B3 attempt 1
+2026-10-11 16:21:25	UQ_DONE moe_fixed4_s45 rfa_k8_B3
+2026-10-11 16:21:25	UQ_START moe_fixed4_s45 fixed2 attempt 1
+2026-10-11 16:40:28	UQ_DONE moe_fixed4_s45 fixed2
+2026-10-11 16:40:28	UQ_START moe_fixed4_s45 rfa_k8_B2 attempt 1
+2026-10-11 17:00:44	UQ_DONE moe_fixed4_s45 rfa_k8_B2
+2026-10-11 17:00:44	UQ_START moe_fixed4_s45 rfa_k8_bypass_B3 attempt 1
+2026-10-11 17:21:02	UQ_DONE moe_fixed4_s45 rfa_k8_bypass_B3
+2026-10-11 17:21:02	UQ_START moe_fixed4_s46 fixed4 attempt 1
+2026-10-11 17:40:06	UQ_DONE moe_fixed4_s46 fixed4
+2026-10-11 17:40:06	UQ_START moe_fixed4_s46 care_B4 attempt 1
+2026-10-11 18:00:09	UQ_DONE moe_fixed4_s46 care_B4
+2026-10-11 18:00:09	UQ_START moe_fixed4_s46 rfa_k8_B4 attempt 1
+2026-10-11 18:20:25	UQ_DONE moe_fixed4_s46 rfa_k8_B4
+2026-10-11 18:20:25	UQ_START moe_fixed4_s46 fixed3 attempt 1
+2026-10-11 18:39:27	UQ_DONE moe_fixed4_s46 fixed3
+2026-10-11 18:39:27	UQ_START moe_fixed4_s46 rfa_k8_B3 attempt 1
+2026-10-11 18:59:43	UQ_DONE moe_fixed4_s46 rfa_k8_B3
+2026-10-11 18:59:43	UQ_START moe_fixed4_s46 fixed2 attempt 1
+2026-10-11 19:18:45	UQ_DONE moe_fixed4_s46 fixed2
+2026-10-11 19:18:45	UQ_START moe_fixed4_s46 rfa_k8_B2 attempt 1
+2026-10-11 19:39:07	UQ_DONE moe_fixed4_s46 rfa_k8_B2
+2026-10-11 19:39:07	UQ_START moe_fixed4_s46 rfa_k8_bypass_B3 attempt 1
+2026-10-11 19:59:25	UQ_DONE moe_fixed4_s46 rfa_k8_bypass_B3
+2026-10-11 19:59:25	FINALIZE (CPU tables)
