@@ -1,0 +1,6 @@
+seed 42: rfa_k8_B2 - fixed2 = -0.212  95% CI [-0.575, +0.162]
+seed 43: rfa_k8_B2 - fixed2 = +0.159  95% CI [-0.182, +0.540]
+seed 44: rfa_k8_B2 - fixed2 = +0.117  95% CI [-0.209, +0.452]
+seed 45: rfa_k8_B2 - fixed2 = -0.623  95% CI [-1.041, -0.220]
+seed 46: rfa_k8_B2 - fixed2 = -0.216  95% CI [-0.601, +0.164]
+across seeds: -0.155 +- 0.316 (sample std) | seeds with delta>0: 2/5

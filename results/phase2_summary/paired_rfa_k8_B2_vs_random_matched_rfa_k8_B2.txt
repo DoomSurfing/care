@@ -1,0 +1,6 @@
+seed 42: rfa_k8_B2 - random_matched_rfa_k8_B2 = +0.914  95% CI [+0.459, +1.389]
+seed 43: rfa_k8_B2 - random_matched_rfa_k8_B2 = +1.265  95% CI [+0.836, +1.730]
+seed 44: rfa_k8_B2 - random_matched_rfa_k8_B2 = +0.688  95% CI [+0.324, +1.082]
+seed 45: rfa_k8_B2 - random_matched_rfa_k8_B2 = +3.376  95% CI [+2.793, +3.950]
+seed 46: rfa_k8_B2 - random_matched_rfa_k8_B2 = +12.847  95% CI [+12.014, +13.691]
+across seeds: +3.818 +- 5.159 (sample std) | seeds with delta>0: 5/5

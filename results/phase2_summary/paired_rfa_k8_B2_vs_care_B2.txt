@@ -1,0 +1,6 @@
+seed 42: rfa_k8_B2 - care_B2 = +0.017  95% CI [-0.338, +0.351]
+seed 43: rfa_k8_B2 - care_B2 = +0.208  95% CI [-0.135, +0.575]
+seed 44: rfa_k8_B2 - care_B2 = +0.285  95% CI [-0.025, +0.591]
+seed 45: rfa_k8_B2 - care_B2 = -0.065  95% CI [-0.462, +0.328]
+seed 46: rfa_k8_B2 - care_B2 = +0.248  95% CI [-0.087, +0.592]
+across seeds: +0.139 +- 0.154 (sample std) | seeds with delta>0: 4/5

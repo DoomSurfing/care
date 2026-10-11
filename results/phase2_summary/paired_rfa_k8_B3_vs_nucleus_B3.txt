@@ -1,0 +1,6 @@
+seed 42: rfa_k8_B3 - nucleus_B3 = +0.007  95% CI [-0.259, +0.271]
+seed 43: rfa_k8_B3 - nucleus_B3 = +0.146  95% CI [-0.093, +0.366]
+seed 44: rfa_k8_B3 - nucleus_B3 = -0.186  95% CI [-0.397, +0.012]
+seed 45: rfa_k8_B3 - nucleus_B3 = -1.113  95% CI [-1.510, -0.709]
+seed 46: rfa_k8_B3 - nucleus_B3 = -0.222  95% CI [-0.457, -0.005]
+across seeds: -0.273 +- 0.492 (sample std) | seeds with delta>0: 2/5

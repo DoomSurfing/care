@@ -1,0 +1,6 @@
+seed 42: rfa_k8_B3 - rfa_k4_B3 = -0.296  95% CI [-0.554, -0.032]
+seed 43: rfa_k8_B3 - rfa_k4_B3 = -0.103  95% CI [-0.354, +0.149]
+seed 44: rfa_k8_B3 - rfa_k4_B3 = -0.140  95% CI [-0.387, +0.114]
+seed 45: rfa_k8_B3 - rfa_k4_B3 = -1.541  95% CI [-1.916, -1.170]
+seed 46: rfa_k8_B3 - rfa_k4_B3 = -0.402  95% CI [-0.653, -0.149]
+across seeds: -0.496 +- 0.596 (sample std) | seeds with delta>0: 0/5

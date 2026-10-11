@@ -1,0 +1,22 @@
+{
+ "utc": "2026-10-10T06:28:21Z",
+ "git_commit": "d2a848a",
+ "git_dirty_files": 0,
+ "seeds_available": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "ood_file": "data/val_ood.json",
+ "ood_sha256": "df321f60cd4bbd745828c509c9b51232073630835178de9a6415b8f0b21e78c8",
+ "holdout_sha256": "2715492bdb3b9f9b2261fd08f5eb2a45e6bde6fd4882b5b8d4ea8175ffdf183c",
+ "preregistered": [
+  "primary UQ metric: OOD-AUROC of u(w=0.5) on MMLU-far",
+  "prompt_len(confound) baseline always reported",
+  "OOD tests the fine-tuning distribution, not the base model's pretraining distribution (MMLU likely seen in pretraining)",
+  "success criterion: at matched k_bar ~2-3, RFA net harm strictly lower than fixed k=2/k=3",
+  "H-bar/D-bar reported with and without the position-0 sink token"
+ ]
+}

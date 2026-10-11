@@ -1,0 +1,6 @@
+seed 42: rfa_k8_B2 - entropy_B2 = -0.934  95% CI [-1.283, -0.584]
+seed 43: rfa_k8_B2 - entropy_B2 = -0.745  95% CI [-1.094, -0.422]
+seed 44: rfa_k8_B2 - entropy_B2 = -0.511  95% CI [-0.841, -0.196]
+seed 45: rfa_k8_B2 - entropy_B2 = -1.157  95% CI [-1.546, -0.772]
+seed 46: rfa_k8_B2 - entropy_B2 = -0.556  95% CI [-0.872, -0.254]
+across seeds: -0.781 +- 0.269 (sample std) | seeds with delta>0: 0/5

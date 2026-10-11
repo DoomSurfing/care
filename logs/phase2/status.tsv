@@ -1,0 +1,156 @@
+2026-10-10 07:43:22	PHASE2_START seeds=[42 43 44 45 46] tiers=[1 2 3] dry=0
+2026-10-10 07:43:22	CALIB_START moe_fixed4_s42 gates=[rfa_k8 rfa_k4 rfa_k8_bypass care nucleus entropy contrib] budgets=[2 3 4]
+2026-10-10 07:54:16	CALIB_DONE moe_fixed4_s42
+2026-10-10 07:54:16	EVAL_START moe_fixed4_s42 rfa_k8_B2 attempt 1
+2026-10-10 08:13:10	EVAL_DONE moe_fixed4_s42 rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.22}
+2026-10-10 08:13:10	EVAL_START moe_fixed4_s42 rfa_k4_B2 attempt 1
+2026-10-10 08:31:50	EVAL_DONE moe_fixed4_s42 rfa_k4_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.7}
+2026-10-10 08:31:50	EVAL_START moe_fixed4_s42 rfa_k8_bypass_B2 attempt 1
+2026-10-10 08:56:59	EVAL_DONE moe_fixed4_s42 rfa_k8_bypass_B2 | AVERAGE (macro over tasks): {'acc_ll': 87.43}
+2026-10-10 08:56:59	EVAL_START moe_fixed4_s42 care_B2 attempt 1
+2026-10-10 09:15:31	EVAL_DONE moe_fixed4_s42 care_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.2}
+2026-10-10 09:15:31	EVAL_START moe_fixed4_s42 nucleus_B2 attempt 1
+2026-10-10 09:34:05	EVAL_DONE moe_fixed4_s42 nucleus_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.63}
+2026-10-10 09:34:05	EVAL_START moe_fixed4_s42 entropy_B2 attempt 1
+2026-10-10 09:51:41	EVAL_DONE moe_fixed4_s42 entropy_B2 | AVERAGE (macro over tasks): {'acc_ll': 87.15}
+2026-10-10 09:51:41	EVAL_START moe_fixed4_s42 random_matched_rfa_k8_B2 attempt 1
+2026-10-10 10:09:25	EVAL_DONE moe_fixed4_s42 random_matched_rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.3}
+2026-10-10 10:09:25	EVAL_START moe_fixed4_s42 rfa_k8_B3 attempt 1
+2026-10-10 10:28:11	EVAL_DONE moe_fixed4_s42 rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.31}
+2026-10-10 10:28:11	EVAL_START moe_fixed4_s42 rfa_k4_B3 attempt 1
+2026-10-10 10:46:53	EVAL_DONE moe_fixed4_s42 rfa_k4_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.61}
+2026-10-10 10:46:53	EVAL_START moe_fixed4_s42 rfa_k8_bypass_B3 attempt 1
+2026-10-10 11:05:51	EVAL_DONE moe_fixed4_s42 rfa_k8_bypass_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.49}
+2026-10-10 11:05:51	EVAL_START moe_fixed4_s42 care_B3 attempt 1
+2026-10-10 11:24:32	EVAL_DONE moe_fixed4_s42 care_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.01}
+2026-10-10 11:24:32	EVAL_START moe_fixed4_s42 nucleus_B3 attempt 1
+2026-10-10 11:43:07	EVAL_DONE moe_fixed4_s42 nucleus_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.3}
+2026-10-10 11:43:07	EVAL_START moe_fixed4_s42 entropy_B3 attempt 1
+2026-10-10 12:00:39	EVAL_DONE moe_fixed4_s42 entropy_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.57}
+2026-10-10 12:00:39	EVAL_START moe_fixed4_s42 random_matched_rfa_k8_B3 attempt 1
+2026-10-10 12:18:29	EVAL_DONE moe_fixed4_s42 random_matched_rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.19}
+2026-10-10 12:18:29	FLIP_START moe_fixed4_s42 kappa=0
+2026-10-10 12:26:53	FLIP_DONE moe_fixed4_s42 kappa=0
+2026-10-10 12:26:53	FLIP_START moe_fixed4_s42 kappa=0.25
+2026-10-10 12:35:18	FLIP_DONE moe_fixed4_s42 kappa=0.25
+2026-10-10 12:35:18	CALIB_START moe_fixed4_s43 gates=[rfa_k8 rfa_k4 rfa_k8_bypass care nucleus entropy contrib] budgets=[2 3 4]
+2026-10-10 12:46:52	CALIB_DONE moe_fixed4_s43
+2026-10-10 12:46:53	EVAL_START moe_fixed4_s43 rfa_k8_B2 attempt 1
+2026-10-10 13:05:54	EVAL_DONE moe_fixed4_s43 rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.21}
+2026-10-10 13:05:54	EVAL_START moe_fixed4_s43 rfa_k4_B2 attempt 1
+2026-10-10 13:24:47	EVAL_DONE moe_fixed4_s43 rfa_k4_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.54}
+2026-10-10 13:24:47	EVAL_START moe_fixed4_s43 rfa_k8_bypass_B2 attempt 1
+2026-10-10 13:43:50	EVAL_DONE moe_fixed4_s43 rfa_k8_bypass_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.21}
+2026-10-10 13:43:50	EVAL_START moe_fixed4_s43 care_B2 attempt 1
+2026-10-10 14:02:33	EVAL_DONE moe_fixed4_s43 care_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.0}
+2026-10-10 14:02:33	EVAL_START moe_fixed4_s43 nucleus_B2 attempt 1
+2026-10-10 14:21:20	EVAL_DONE moe_fixed4_s43 nucleus_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.56}
+2026-10-10 14:21:20	EVAL_START moe_fixed4_s43 entropy_B2 attempt 1
+2026-10-10 14:39:08	EVAL_DONE moe_fixed4_s43 entropy_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.96}
+2026-10-10 14:39:08	EVAL_START moe_fixed4_s43 random_matched_rfa_k8_B2 attempt 1
+2026-10-10 14:57:04	EVAL_DONE moe_fixed4_s43 random_matched_rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 84.95}
+2026-10-10 14:57:04	EVAL_START moe_fixed4_s43 rfa_k8_B3 attempt 1
+2026-10-10 15:16:00	EVAL_DONE moe_fixed4_s43 rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.31}
+2026-10-10 15:16:00	EVAL_START moe_fixed4_s43 rfa_k4_B3 attempt 1
+2026-10-10 15:34:49	EVAL_DONE moe_fixed4_s43 rfa_k4_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.41}
+2026-10-10 15:34:49	EVAL_START moe_fixed4_s43 rfa_k8_bypass_B3 attempt 1
+2026-10-10 15:53:48	EVAL_DONE moe_fixed4_s43 rfa_k8_bypass_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.37}
+2026-10-10 15:53:48	EVAL_START moe_fixed4_s43 care_B3 attempt 1
+2026-10-10 16:12:30	EVAL_DONE moe_fixed4_s43 care_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.2}
+2026-10-10 16:12:30	EVAL_START moe_fixed4_s43 nucleus_B3 attempt 1
+2026-10-10 16:31:13	EVAL_DONE moe_fixed4_s43 nucleus_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.16}
+2026-10-10 16:31:13	EVAL_START moe_fixed4_s43 entropy_B3 attempt 1
+2026-10-10 16:49:01	EVAL_DONE moe_fixed4_s43 entropy_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.52}
+2026-10-10 16:49:02	EVAL_START moe_fixed4_s43 random_matched_rfa_k8_B3 attempt 1
+2026-10-10 17:06:59	EVAL_DONE moe_fixed4_s43 random_matched_rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.62}
+2026-10-10 17:06:59	CALIB_START moe_fixed4_s44 gates=[rfa_k8 rfa_k4 rfa_k8_bypass care nucleus entropy contrib] budgets=[2 3 4]
+2026-10-10 17:17:58	CALIB_DONE moe_fixed4_s44
+2026-10-10 17:17:58	EVAL_START moe_fixed4_s44 rfa_k8_B2 attempt 1
+2026-10-10 17:36:54	EVAL_DONE moe_fixed4_s44 rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 84.78}
+2026-10-10 17:36:54	EVAL_START moe_fixed4_s44 rfa_k4_B2 attempt 1
+2026-10-10 17:55:45	EVAL_DONE moe_fixed4_s44 rfa_k4_B2 | AVERAGE (macro over tasks): {'acc_ll': 84.94}
+2026-10-10 17:55:45	EVAL_START moe_fixed4_s44 rfa_k8_bypass_B2 attempt 1
+2026-10-10 18:14:42	EVAL_DONE moe_fixed4_s44 rfa_k8_bypass_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.87}
+2026-10-10 18:14:42	EVAL_START moe_fixed4_s44 care_B2 attempt 1
+2026-10-10 18:33:33	EVAL_DONE moe_fixed4_s44 care_B2 | AVERAGE (macro over tasks): {'acc_ll': 84.5}
+2026-10-10 18:33:33	EVAL_START moe_fixed4_s44 nucleus_B2 attempt 1
+2026-10-10 18:52:17	EVAL_DONE moe_fixed4_s44 nucleus_B2 | AVERAGE (macro over tasks): {'acc_ll': 84.71}
+2026-10-10 18:52:17	EVAL_START moe_fixed4_s44 entropy_B2 attempt 1
+2026-10-10 19:10:06	EVAL_DONE moe_fixed4_s44 entropy_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.29}
+2026-10-10 19:10:06	EVAL_START moe_fixed4_s44 random_matched_rfa_k8_B2 attempt 1
+2026-10-10 19:28:05	EVAL_DONE moe_fixed4_s44 random_matched_rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 84.09}
+2026-10-10 19:28:05	EVAL_START moe_fixed4_s44 rfa_k8_B3 attempt 1
+2026-10-10 19:47:02	EVAL_DONE moe_fixed4_s44 rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.39}
+2026-10-10 19:47:02	EVAL_START moe_fixed4_s44 rfa_k4_B3 attempt 1
+2026-10-10 20:05:52	EVAL_DONE moe_fixed4_s44 rfa_k4_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.53}
+2026-10-10 20:05:52	EVAL_START moe_fixed4_s44 rfa_k8_bypass_B3 attempt 1
+2026-10-10 20:24:50	EVAL_DONE moe_fixed4_s44 rfa_k8_bypass_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.78}
+2026-10-10 20:24:50	EVAL_START moe_fixed4_s44 care_B3 attempt 1
+2026-10-10 20:43:44	EVAL_DONE moe_fixed4_s44 care_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.42}
+2026-10-10 20:43:44	EVAL_START moe_fixed4_s44 nucleus_B3 attempt 1
+2026-10-10 21:02:31	EVAL_DONE moe_fixed4_s44 nucleus_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.58}
+2026-10-10 21:02:31	EVAL_START moe_fixed4_s44 entropy_B3 attempt 1
+2026-10-10 21:20:22	EVAL_DONE moe_fixed4_s44 entropy_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.58}
+2026-10-10 21:20:23	EVAL_START moe_fixed4_s44 random_matched_rfa_k8_B3 attempt 1
+2026-10-10 21:38:27	EVAL_DONE moe_fixed4_s44 random_matched_rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 84.39}
+2026-10-10 21:38:27	CALIB_START moe_fixed4_s45 gates=[rfa_k8 rfa_k4 rfa_k8_bypass care nucleus entropy contrib] budgets=[2 3 4]
+2026-10-10 21:48:48	CALIB_DONE moe_fixed4_s45
+2026-10-10 21:48:48	EVAL_START moe_fixed4_s45 rfa_k8_B2 attempt 1
+2026-10-10 22:07:50	EVAL_DONE moe_fixed4_s45 rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.47}
+2026-10-10 22:07:50	EVAL_START moe_fixed4_s45 rfa_k4_B2 attempt 1
+2026-10-10 22:26:44	EVAL_DONE moe_fixed4_s45 rfa_k4_B2 | AVERAGE (macro over tasks): {'acc_ll': 84.39}
+2026-10-10 22:26:44	EVAL_START moe_fixed4_s45 rfa_k8_bypass_B2 attempt 1
+2026-10-10 22:45:39	EVAL_DONE moe_fixed4_s45 rfa_k8_bypass_B2 | AVERAGE (macro over tasks): {'acc_ll': 87.39}
+2026-10-10 22:45:39	EVAL_START moe_fixed4_s45 care_B2 attempt 1
+2026-10-10 23:04:20	EVAL_DONE moe_fixed4_s45 care_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.53}
+2026-10-10 23:04:20	EVAL_START moe_fixed4_s45 nucleus_B2 attempt 1
+2026-10-10 23:23:01	EVAL_DONE moe_fixed4_s45 nucleus_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.76}
+2026-10-10 23:23:01	EVAL_START moe_fixed4_s45 entropy_B2 attempt 1
+2026-10-10 23:40:47	EVAL_DONE moe_fixed4_s45 entropy_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.62}
+2026-10-10 23:40:47	EVAL_START moe_fixed4_s45 random_matched_rfa_k8_B2 attempt 1
+2026-10-10 23:58:46	EVAL_DONE moe_fixed4_s45 random_matched_rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 82.09}
+2026-10-10 23:58:46	EVAL_START moe_fixed4_s45 rfa_k8_B3 attempt 1
+2026-10-11 00:17:49	EVAL_DONE moe_fixed4_s45 rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 85.62}
+2026-10-11 00:17:49	EVAL_START moe_fixed4_s45 rfa_k4_B3 attempt 1
+2026-10-11 00:36:46	EVAL_DONE moe_fixed4_s45 rfa_k4_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.16}
+2026-10-11 00:36:46	EVAL_START moe_fixed4_s45 rfa_k8_bypass_B3 attempt 1
+2026-10-11 00:55:47	EVAL_DONE moe_fixed4_s45 rfa_k8_bypass_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.09}
+2026-10-11 00:55:47	EVAL_START moe_fixed4_s45 care_B3 attempt 1
+2026-10-11 01:14:32	EVAL_DONE moe_fixed4_s45 care_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.42}
+2026-10-11 01:14:32	EVAL_START moe_fixed4_s45 nucleus_B3 attempt 1
+2026-10-11 01:33:19	EVAL_DONE moe_fixed4_s45 nucleus_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.74}
+2026-10-11 01:33:19	EVAL_START moe_fixed4_s45 entropy_B3 attempt 1
+2026-10-11 01:51:06	EVAL_DONE moe_fixed4_s45 entropy_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.32}
+2026-10-11 01:51:06	EVAL_START moe_fixed4_s45 random_matched_rfa_k8_B3 attempt 1
+2026-10-11 02:09:08	EVAL_DONE moe_fixed4_s45 random_matched_rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 83.16}
+2026-10-11 02:09:08	CALIB_START moe_fixed4_s46 gates=[rfa_k8 rfa_k4 rfa_k8_bypass care nucleus entropy contrib] budgets=[2 3 4]
+2026-10-11 02:19:06	CALIB_DONE moe_fixed4_s46
+2026-10-11 02:19:06	EVAL_START moe_fixed4_s46 rfa_k8_B2 attempt 1
+2026-10-11 02:38:01	EVAL_DONE moe_fixed4_s46 rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.82}
+2026-10-11 02:38:01	EVAL_START moe_fixed4_s46 rfa_k4_B2 attempt 1
+2026-10-11 02:56:49	EVAL_DONE moe_fixed4_s46 rfa_k4_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.22}
+2026-10-11 02:56:49	EVAL_START moe_fixed4_s46 rfa_k8_bypass_B2 attempt 1
+2026-10-11 03:15:45	EVAL_DONE moe_fixed4_s46 rfa_k8_bypass_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.85}
+2026-10-11 03:15:45	EVAL_START moe_fixed4_s46 care_B2 attempt 1
+2026-10-11 03:34:38	EVAL_DONE moe_fixed4_s46 care_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.57}
+2026-10-11 03:34:38	EVAL_START moe_fixed4_s46 nucleus_B2 attempt 1
+2026-10-11 03:53:29	EVAL_DONE moe_fixed4_s46 nucleus_B2 | AVERAGE (macro over tasks): {'acc_ll': 85.85}
+2026-10-11 03:53:29	EVAL_START moe_fixed4_s46 entropy_B2 attempt 1
+2026-10-11 04:11:23	EVAL_DONE moe_fixed4_s46 entropy_B2 | AVERAGE (macro over tasks): {'acc_ll': 86.37}
+2026-10-11 04:11:23	EVAL_START moe_fixed4_s46 random_matched_rfa_k8_B2 attempt 1
+2026-10-11 04:29:29	EVAL_DONE moe_fixed4_s46 random_matched_rfa_k8_B2 | AVERAGE (macro over tasks): {'acc_ll': 72.97}
+2026-10-11 04:29:29	EVAL_START moe_fixed4_s46 rfa_k8_B3 attempt 1
+2026-10-11 04:48:36	EVAL_DONE moe_fixed4_s46 rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.67}
+2026-10-11 04:48:36	EVAL_START moe_fixed4_s46 rfa_k4_B3 attempt 1
+2026-10-11 05:07:37	EVAL_DONE moe_fixed4_s46 rfa_k4_B3 | AVERAGE (macro over tasks): {'acc_ll': 87.07}
+2026-10-11 05:07:37	EVAL_START moe_fixed4_s46 rfa_k8_bypass_B3 attempt 1
+2026-10-11 05:26:47	EVAL_DONE moe_fixed4_s46 rfa_k8_bypass_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.86}
+2026-10-11 05:26:47	EVAL_START moe_fixed4_s46 care_B3 attempt 1
+2026-10-11 05:45:45	EVAL_DONE moe_fixed4_s46 care_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.7}
+2026-10-11 05:45:45	EVAL_START moe_fixed4_s46 nucleus_B3 attempt 1
+2026-10-11 06:04:37	EVAL_DONE moe_fixed4_s46 nucleus_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.89}
+2026-10-11 06:04:37	EVAL_START moe_fixed4_s46 entropy_B3 attempt 1
+2026-10-11 06:22:33	EVAL_DONE moe_fixed4_s46 entropy_B3 | AVERAGE (macro over tasks): {'acc_ll': 86.99}
+2026-10-11 06:22:33	EVAL_START moe_fixed4_s46 random_matched_rfa_k8_B3 attempt 1
+2026-10-11 06:40:38	EVAL_DONE moe_fixed4_s46 random_matched_rfa_k8_B3 | AVERAGE (macro over tasks): {'acc_ll': 79.04}
+2026-10-11 06:40:38	FINALIZE (CPU tables)
