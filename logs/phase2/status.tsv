@@ -368,3 +368,5 @@
 2026-10-12 14:17:57	EVAL_START moe_fixed4_s46 random_two_point_B4 attempt 1
 2026-10-12 14:35:55	EVAL_DONE moe_fixed4_s46 random_two_point_B4 | AVERAGE (macro over tasks): {'acc_ll': 87.19}
 2026-10-12 14:35:55	FINALIZE (CPU tables)
+2026-10-12 14:39:41	TIER_DONE 3
+2026-10-12 14:39:41	FINALIZE (CPU tables)
