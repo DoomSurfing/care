@@ -1,0 +1,6 @@
+seed 42: rfa_k8_B4 - rfa_k8_bypass_B4 = -0.044  95% CI [-0.192, +0.089]
+seed 43: rfa_k8_B4 - rfa_k8_bypass_B4 = -0.024  95% CI [-0.143, +0.088]
+seed 44: rfa_k8_B4 - rfa_k8_bypass_B4 = -0.048  95% CI [-0.196, +0.096]
+seed 45: rfa_k8_B4 - rfa_k8_bypass_B4 = +0.016  95% CI [-0.177, +0.217]
+seed 46: rfa_k8_B4 - rfa_k8_bypass_B4 = +0.060  95% CI [-0.103, +0.208]
+across seeds: -0.008 +- 0.046 (sample std) | seeds with delta>0: 2/5
